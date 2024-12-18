@@ -13,7 +13,7 @@ export default function Question({
     selectedAnswer: '',
     isCorrect: null,
   });
-
+  
   let timer = TIMER;
 
   if (answer.selectedAnswer) {
